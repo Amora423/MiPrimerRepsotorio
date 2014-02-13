@@ -1,3 +1,7 @@
+## Luis Alejandro Mora Sandoval 
+## universidad piloto
+## séptimo semestre 
+
 1. Que es un repositorio?
 Un repositorio, depósito o archivo es un sitio web centralizado donde se almacena y mantiene información digital, habitualmente bases de datos o archivos informáticos. Pueden contener los archivos en su servidor o referenciar desde su web al alojamiento originario.
 
@@ -15,4 +19,21 @@ El desarrollo de este taller estará contenido dentro del repositorio.
 5. Que significa MVC
 Las siglas MVC hacen referencia al estilo de arquitectura por Modelo - Vista - Controlador. El Modelo Vista Controlador es un patrón de arquitectura de software que separa los datos y la lógica de negocio de una aplicación de la interfaz de usuario y el módulo encargado de gestionar los eventos y las comunicaciones.
 
+MODELO.  El modelo representa la parte de la aplicación que implementa la lógica de negocio. esto significa que es responsable del la recuperación de datos, convirtiéndolo en conceptos significativos para la aplicación, así como su procesamiento, validación, asociación y cualquier otra tarea relativa a la manipulación de dichos datos
+
+VISTA.  La vista hace una presentación de los datos del modelo. Estando separada de los objetos del modelo, es responsable del uso de la información de la cual dispone para producir cualquier interfaz de presentación de cualquier petición que se presente.
+
+CONTROLADOR.  La capa del controlador gestiona las peticiones de los usuarios. Es responsable de responder la información solicitada con la ayuda tanto del modelo como de la vista.
+
+Los controladores pueden ser vistos como administradores, cuidando de que todos los recursos necesarios para completar una tarea se deleguen a los trabajadores más adecuados. Espera peticiones de los clientes, comprueba su validez de acuerdo a las normas de autenticación o autorización, delega la busqueda de datos al modelo, y selecciona la tipo de respuesta más adecuado según las preferencias del cliente, finalmente, delega este proceso de presentación a la capa de la Vista.
+
 6. Definir un proyecto para trabajo final
+
+Se tiene pensado desarrollar una aplicación para el manejo de la información básica de una miscelánea con los siguientes módulos:
+
+- artículos
+- proveedores 
+- clientes
+- compras
+- ventas 
+- inventario 
